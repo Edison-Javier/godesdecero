@@ -1,20 +1,19 @@
 package ejercicios
 
 import (
-	"fmt"
 	"strconv"
 )
 
 func ConvertToInt(value string) (int, string) {
-	intValue, error := strconv.Atoi(value)
+	number, error := strconv.Atoi(value)
 
-	var resp string
-	if intValue > 100 {
-		resp = "Es mayor a 100"
-	} else {
-		resp = "Es menor a 100"
+	if error != nil {
+		return 0, "Hubo un error. Motivo: " + error.Error()
 	}
 
-	fmt.Println(error)
-	return intValue, resp
+	if number > 100 {
+		return number, "Es mayor a 100"
+	} else {
+		return number, "Es menor a 100"
+	}
 }
