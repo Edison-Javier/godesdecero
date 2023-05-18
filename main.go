@@ -1,7 +1,15 @@
 package main
 
-import "github.com/godesdecero/variables"
+import (
+	"fmt"
+
+	"github.com/godesdecero/variables"
+)
 
 func main() {
-	variables.MostrarEnteros()
+	//variables.TipoVariables()
+	status, text := variables.ConvertToText(1700)
+
+	fmt.Println(status)
+	fmt.Println(text)
 }
