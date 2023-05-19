@@ -1,9 +1,6 @@
 package main
 
 import (
-	"fmt"
-	"runtime"
-
 	"github.com/godesdecero/ejercicios"
 )
 
@@ -19,7 +16,7 @@ func main() {
 		fmt.Println("Esto es Windows")
 	}*/
 
-	intValue, resp := ejercicios.ConvertToInt("1758-")
+	/*intValue, resp := ejercicios.ConvertToInt("1758-")
 	fmt.Println(intValue)
 	fmt.Println(resp)
 
@@ -30,5 +27,11 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}
+	}*/
+
+	//teclado.IngresarNumero()
+
+	//iteraciones.Iterar()
+
+	ejercicios.MostarTablaDeMultiplicar()
 }
