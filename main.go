@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/godesdecero/ejercicios"
-)
+import "github.com/godesdecero/files"
 
 func main() {
 	//variables.TipoVariables()
@@ -33,5 +31,14 @@ func main() {
 
 	//iteraciones.Iterar()
 
-	ejercicios.MostarTablaDeMultiplicar()
+	//text := ejercicios.ObtenerTablaDeMultiplicar()
+	//fmt.Println(text)
+
+	//files.GuardarTabla()
+
+	//files.AppendTextFile()
+
+	//files.LeerArchivo()
+
+	files.LeerArchivo2()
 }
