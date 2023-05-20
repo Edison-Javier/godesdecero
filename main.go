@@ -1,6 +1,6 @@
 package main
 
-import "github.com/godesdecero/users"
+//import "github.com/godesdecero/users"
 
 //import "github.com/godesdecero/users"
 
@@ -56,6 +56,6 @@ func main() {
 
 	//mapas.MostrarMapas()
 
-	users.ValidarUsuario()
+	//users.ValidarUsuario()
 
 }
