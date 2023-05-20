@@ -1,6 +1,8 @@
 package main
 
-import "github.com/godesdecero/mapas"
+import "github.com/godesdecero/users"
+
+//import "github.com/godesdecero/users"
 
 func main() {
 	//variables.TipoVariables()
@@ -52,6 +54,8 @@ func main() {
 
 	//arreglos_slices.MostrarSlice()
 
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+
+	users.ValidarUsuario()
 
 }
