@@ -1,6 +1,6 @@
 package main
 
-import "github.com/godesdecero/files"
+import "github.com/godesdecero/mapas"
 
 func main() {
 	//variables.TipoVariables()
@@ -40,5 +40,18 @@ func main() {
 
 	//files.LeerArchivo()
 
-	files.LeerArchivo2()
+	//files.LeerArchivo2()
+
+	//funciones.Calculos()
+
+	//funciones.LlamarClosure()
+
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MostrarArreglos()
+
+	//arreglos_slices.MostrarSlice()
+
+	mapas.MostrarMapas()
+
 }
