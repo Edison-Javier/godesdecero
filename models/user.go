@@ -1,6 +1,9 @@
 package models
 
-import "time"
+import (
+	"fmt"
+	"time"
+)
 
 type User struct {
 	Id        int
@@ -14,4 +17,6 @@ func (this *User) AddUser(id int, name string, createdAt time.Time, status bool)
 	this.Name = name
 	this.CreatedAt = createdAt
 	this.Status = status
+
+	fmt.Println("Metodo AddUser")
 }

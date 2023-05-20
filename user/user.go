@@ -1,4 +1,4 @@
-package users
+package user
 
 import (
 	"fmt"
@@ -11,5 +11,4 @@ func ValidarUsuario() {
 	u := new(models.User)
 	u.AddUser(18401608, "Edison", time.Now(), true)
 	fmt.Println(u)
-
 }
