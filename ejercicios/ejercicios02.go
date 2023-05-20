@@ -29,5 +29,4 @@ func ObtenerTablaDeMultiplicar() string {
 	}
 
 	return text
-
 }
